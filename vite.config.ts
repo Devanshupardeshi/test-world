@@ -1,6 +1,6 @@
 import { defineConfig } from "vite";
 
-export default defineConfig(({ command }) => ({
+export default defineConfig({
   build: {
     target: "esnext",
     chunkSizeWarningLimit: 4096,
@@ -16,4 +16,4 @@ export default defineConfig(({ command }) => ({
     target: "esnext",
   },
   base: "/",
-}));
+});
